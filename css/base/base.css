@@ -1,0 +1,27 @@
+h1 {
+  font-family: 'Roboto Slab', serif;
+  color: #435C6E;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #5B7887;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #5B7887;
+}
+
+p {
+  font-family: 'Klinic Slab', serif;
+  color: #5B7887;
+}
+
+a {
+  color: #EF695F;
+}
+
+
