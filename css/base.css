@@ -1,27 +1,33 @@
+base {
+  background: #5B7887
+}
+
 h1 {
   font-family: 'Roboto Slab', serif;
-  color: #435C6E;
+  color: #C9C9C9;
 }
 
 h2 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
-  color: #5B7887;
+  color: #FFFFFF;
 }
 
 h3 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  color: #5B7887;
+  color: #FFFFFF;
 }
 
 p {
   font-family: 'Klinic Slab', serif;
-  color: #5B7887;
+  color: #FFFFFF;
 }
 
 a {
   color: #EF695F;
 }
 
-
+small {
+  color: #FFFFFF;
+}
