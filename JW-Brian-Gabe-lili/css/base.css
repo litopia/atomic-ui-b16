@@ -22,13 +22,14 @@ h2 {
 h3 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  color: #FFFFFF; /*white*/
+  color: #f3ac13; /*yellow*/
 }
 
 p {
   font-family: 'Arvo', serif;
   font-weight: 400;
   color: #FFFFFF; /*white*/
+  padding: 10px 0;
 }
 
 a {
