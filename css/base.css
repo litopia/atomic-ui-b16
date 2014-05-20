@@ -1,33 +1,35 @@
 body {
-  background: #5B7887
+  background: #5B7887; /*dark blue*/
 }
 
 h1 {
   font-family: 'Roboto Slab', serif;
-  color: #C9C9C9;
+  color: #C9C9C9; /*light grey*/
 }
 
 h2 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
-  color: #FFFFFF;
+  color: #FFFFFF; /*white*/
 }
 
 h3 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  color: #FFFFFF;
+  color: #FFFFFF; /*white*/
 }
 
 p {
-  font-family: 'Klinic Slab', serif;
-  color: #FFFFFF;
+  font-family: 'Antic Slab', serif;
+  color: #FFFFFF; /*white*/
 }
 
 a {
-  color: #EF695F;
+  font-family: 'Antic Slab', serif;
+  color: #EF695F; /*red*/
 }
 
-small {
-  color: #FFFFFF;
+footer {
+  font-family: 'Antic Slab', serif;
+  color: #FFFFFF; /*white*/
 }
