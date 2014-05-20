@@ -21,6 +21,7 @@ nav{
 
 nav ul{
   margin: 0;
+  padding-left: 0
 }
 nav li{
   list-style: none;
@@ -128,6 +129,7 @@ nav a{
   outline: none;
   padding: 1em;
   border-radius: 5px;
+  width: 200px;
 }
 
 .buttonwrapper {
@@ -144,6 +146,26 @@ nav a{
   display: inline-block;
   width: 25%;
   margin: 1em;
+}
+
+@media (max-width: 768px) {
+  .sitenav:nth-child(1){
+    display:none;
+  }
+  .hero button {
+    margin-top: 2em;
+    margin-bottom: 1em;
+  }
+  .hero button:last-child{
+    margin-top: 0;
+  }
+  .hero{
+    margin-bottom: 1em;
+  }
+  .summaryitem{
+    width: 70%;
+    margin: 0 auto;
+  }
 }
 
 
