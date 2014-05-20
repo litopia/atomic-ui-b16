@@ -62,10 +62,18 @@ header{
 }
 
 /** Set style for hero **/
-#hero{
+.hero{
   width: 80%;
 }
 
+.summary {
+  background: #435C6E;
+}
 
+.summary section {
+  display: inline-block;
+  height: 150px;
+  width: 30%;
+}
 
 
