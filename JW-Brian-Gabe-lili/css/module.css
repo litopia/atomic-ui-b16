@@ -1,0 +1,71 @@
+/** CSS for header **/
+header{
+  text-align: left;
+  background: #F3AC13;
+  position: relative;
+  top: 0;
+  height: 60px;
+}
+.sitenav{
+  float: right;
+}
+
+.sitenav a{
+  text-decoration: none;
+  color: #435c6e;
+}
+
+.sitenav-button:hover + .sitenav-list{
+  display:block;
+}
+/** For dropdown sitenav bar **/
+
+.sitenav-list{
+  width: 300px;
+  position: absolute;
+  top: 45px;
+  right: 0;
+  background: rgba(67, 92, 110, 0.9); /* hex#435c6e with 0.9 opacity*/
+  display: none;
+  padding: 20px;
+  list-style: none;
+}
+
+.sitenav-listitem{
+  padding: 15px 10px;
+  border-top: 1px solid #FFFFFF;
+  cursor: pointer;
+}
+
+.sitenav-listitem:last-child{
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.sitenav-listitem a{
+  color: #FFFFFF;
+}
+
+.sitenav-listitem:hover{
+  background: #F3AC13;
+}
+
+.sitenav-listitem:hover a{
+  color: #435c6e;
+}
+
+
+/*** Set the width for responsive design ***/
+.col-12{
+  width: 100%;
+  max-width: 1240px;
+  padding: 0 20px;
+}
+
+/** Set style for hero **/
+#hero{
+  width: 80%;
+}
+
+
+
+
