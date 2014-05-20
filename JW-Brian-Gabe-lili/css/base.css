@@ -35,7 +35,6 @@ a {
   font-family: 'Arvo', serif;
   font-weight: 400;
   color: #EF695F; /*red*/
-  padding: 10px 0;
 }
 
 button {
@@ -48,4 +47,6 @@ footer {
   font-family: 'Arvo', serif;
   font-weight: 400;
   color: #FFFFFF; /*white*/
+  padding: 10px 0;
+
 }
