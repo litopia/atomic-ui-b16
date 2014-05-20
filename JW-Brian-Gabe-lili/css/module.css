@@ -118,17 +118,23 @@ nav a{
 
 .hero p {
   max-width: 70%;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 .hero button {
-  margin: 3em;
+  margin: 3em 3em 1em 3em;
   background-color: #EF695F;
   border: none;
+  color: white;
   outline: none;
   padding: 1em;
   border-radius: 5px;
   width: 200px;
+}
+
+.buttonwrapper {
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 .summary {
