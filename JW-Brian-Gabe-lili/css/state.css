@@ -1,4 +1,6 @@
-.nubbing {
+<!--working with nubbins-->
+
+/*.nubbing {
   width: 0;
   height: 0;
   display: inline-block;
@@ -11,6 +13,8 @@
 .right {
   margin-left: 10em;
 }
+*/
+
 
 button:hover {
   background: #C9C9C9;
