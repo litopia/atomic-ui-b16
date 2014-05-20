@@ -5,9 +5,11 @@ body {
 }
 
 h1 {
-  font-family: 'Roboto Slab', serif;
-  color: #C9C9C9; /*light grey*/
+  font-family: 'Arvo', serif;
+  font-weight: 700;
+  color: #FFFFFF; /*light grey*/
   text-transform: uppercase;
+  font-size: 3em;
 }
 
 h2 {
@@ -24,16 +26,19 @@ h3 {
 }
 
 p {
-  font-family: 'Antic Slab', serif;
+  font-family: 'Arvo', serif;
+  font-weight: 400;
   color: #FFFFFF; /*white*/
 }
 
 a {
-  font-family: 'Antic Slab', serif;
+  font-family: 'Arvo', serif;
+  font-weight: 400;
   color: #EF695F; /*red*/
 }
 
 footer {
-  font-family: 'Antic Slab', serif;
+  font-family: 'Arvo', serif;
+  font-weight: 400;
   color: #FFFFFF; /*white*/
 }
