@@ -6,20 +6,31 @@ header{
   top: 0;
   height: 60px;
 }
-.sitenav{
+nav{
   float: right;
+  height: 60px;
 }
 
-.sitenav a{
+nav li{
+  list-style: none;
+}
+
+nav a{
   text-decoration: none;
   color: #435c6e;
 }
 
-.sitenav-button:hover + .sitenav-list{
+.sitenav-button:hover > .sitenav-list{
   display:block;
 }
-/** For dropdown sitenav bar **/
 
+/** For topnav items **/
+.sitenav{
+  display: inline-block;
+  padding-left: 15px;
+  height: 60px;
+}
+/** For dropdown sitenav bar **/
 .sitenav-list{
   width: 300px;
   position: absolute;
@@ -28,7 +39,19 @@ header{
   background: rgba(67, 92, 110, 0.9); /* hex#435c6e with 0.9 opacity*/
   display: none;
   padding: 20px;
-  list-style: none;
+}
+
+.sitenav-list::before{
+  content:"";
+  display: block;
+  position: absolute;
+  top: -13px;
+  right: 30px;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid rgba(67, 92, 110, 0.9);
 }
 
 .sitenav-listitem{
@@ -56,7 +79,7 @@ header{
 
 /*** Set the width for responsive design ***/
 .col-12{
-  width: 100%;
+  width: calc(100% - 40px);
   max-width: 1240px;
   padding: 0 20px;
 }
