@@ -37,6 +37,12 @@ a {
   color: #EF695F; /*red*/
 }
 
+button {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
 footer {
   font-family: 'Arvo', serif;
   font-weight: 400;
