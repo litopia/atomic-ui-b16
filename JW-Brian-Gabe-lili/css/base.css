@@ -22,7 +22,7 @@ h2 {
 h3 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  color: #f3ac13; /*white*/
+  color: #FFFFFF; /*white*/
 }
 
 p {
@@ -47,5 +47,4 @@ footer {
   font-family: 'Arvo', serif;
   font-weight: 400;
   color: #FFFFFF; /*white*/
-  padding: 10px 0;
 }
