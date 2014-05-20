@@ -85,10 +85,35 @@ nav a{
 }
 
 /** Set style for hero **/
-#hero{
-  width: 80%;
+.hero{
+  width: 100%;
+  height: 20em;
+  padding-top: 4em;
 }
 
+.hero p {
+  max-width: 70%;
+  margin: 0 auto
+}
 
+.hero button {
+  margin: 3em;
+  background-color: #EF695F;
+  border: none;
+  outline: none;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+.summary {
+  background: #435C6E;
+  padding: 3em;
+}
+
+.summaryitem {
+  display: inline-block;
+  width: 25%;
+  margin: 1em;
+}
 
 
